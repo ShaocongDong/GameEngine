@@ -13,7 +13,7 @@ import UIKit
  TaggingSystem is a system to generate tag number
  and help keep all the tag numbers unique
  */
-class TaggingSystem {
+public class TaggingSystem {
     private static var taggingDict = [Int: Bool]()
     private static var initialStateFlag = true
 

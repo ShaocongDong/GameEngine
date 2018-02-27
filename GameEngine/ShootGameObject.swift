@@ -11,7 +11,7 @@ import UIKit
 
 /// ShootGameObject, with one more attribute, a shootFlag,
 /// designed for the shoot bubbles
-class ShootGameObject: GameObject {
+public class ShootGameObject: GameObject {
     var shootFlag: Bool
 
     init(shootFlag: Bool, fromX: CGFloat, fromY: CGFloat, atX: CGFloat,

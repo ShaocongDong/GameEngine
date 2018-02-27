@@ -12,7 +12,7 @@ import UIKit
 /**
 `GameUtil` is a utility class for holding helper functions
  */
-class GameUtil {
+public class GameUtil {
 
     /// wrapper function for the actual next bubble to shoot algorithm
     static func nextBubbleToShoot() -> UIImage {

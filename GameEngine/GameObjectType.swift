@@ -9,7 +9,7 @@
 import Foundation
 
 /// Game Object type enum, with color or special bubble type
-enum GameObjectType: String {
+public enum GameObjectType: String {
     case red = "RED"
     case blue = "BLUE"
     case green = "GREEN"

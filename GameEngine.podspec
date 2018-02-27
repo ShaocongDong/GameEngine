@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "GameEngine"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "GameEngine classes."
 
   # This description is used to generate tags and improve search results.
@@ -116,7 +116,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+  s.frameworks = "UIKit", "Foundation"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
