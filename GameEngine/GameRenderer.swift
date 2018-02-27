@@ -14,7 +14,7 @@ import UIKit
  + It uses display link for syncing and animating bubbles
  + Some of object collections are accessed from physics engines for modification and updates.
  */
-class GameRenderer {
+public class GameRenderer {
 
     private var motherView: UIView
     private var shootBubble: UIImageView
@@ -39,7 +39,7 @@ class GameRenderer {
         return resultList
     }
 
-    init(motherView: UIView, shootBubble: UIImageView, indexPathAdjacencySet: [Int: Set<Int>]) {
+    public init(motherView: UIView, shootBubble: UIImageView, indexPathAdjacencySet: [Int: Set<Int>]) {
         self.motherView = motherView
         self.shootBubble = shootBubble
         self.indexPathAdjacencySet = indexPathAdjacencySet

@@ -16,7 +16,7 @@ import UIKit
  + process the moving process of the bubble
  + process the valocity exchange of the colliding bubble
  */
-class PhysicsProcessor {
+public class PhysicsProcessor {
 
     /// process the resting process of the bubble
     static func processObjectToBeResting(objectA: GameObject, renderer: GameRenderer, motherView: UIView) {

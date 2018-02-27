@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class SpecialBubbleEngine {
+public class SpecialBubbleEngine {
 
     static func specialBubbleProcess(renderer: GameRenderer, motherView: UIView,
                                      shootObject: ShootGameObject) {

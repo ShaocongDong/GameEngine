@@ -12,7 +12,7 @@ import UIKit
 /**
  Physics Engine for updating object positions
  */
-class PhysicsEngine {
+public class PhysicsEngine {
 
     /// update the moving objects positions,
     /// because the object are irrelevant in the game, the position will just get updated
